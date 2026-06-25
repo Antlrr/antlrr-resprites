@@ -1,0 +1,20 @@
+name: acid
+color: 57f18f
+lightColor: 57f18f
+
+flammability: 0.6
+temperature: 1
+heatCapacity: 0.2
+explosiveness: 0
+
+//do me a solid
+particleEffect: {
+	type: ParticleEffect
+	particles: 2
+	lifetime: 180
+
+	lightColor: 57f18f
+	colorFrom: 57f18f
+	colorTo: 57f18f00
+	interp: pow5Out
+}

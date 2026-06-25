@@ -1,0 +1,12 @@
+type: Reconstructor
+size: 3
+category: units
+upgrades: [
+    [dagger, nova]
+]
+requirements: [
+  lead/160
+  silver/100
+  gold/80
+  electrum/40
+ ]
