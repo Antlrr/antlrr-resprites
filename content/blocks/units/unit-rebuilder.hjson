@@ -1,8 +1,17 @@
 type: Reconstructor
 size: 3
 category: units
+itemCapacity: 80
+consumes: {
+    items: [
+        silver/40
+        electrum/25
+    ]
+    power: 2
+}
+constructTime: 600  
 upgrades: [
-    [dagger, nova]
+    [dagger, lance]
 ]
 requirements: [
   lead/160
