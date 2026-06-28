@@ -102,3 +102,6 @@ weapons: [
         }
     }
 ]
+research: {
+    parent: unit-rebuilder
+}
