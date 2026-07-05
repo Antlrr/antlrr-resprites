@@ -11,12 +11,12 @@ drawer: [
             {
                 type: DrawLiquidTile
                 drawLiquid: water
-                padding: 0.8
+                padding: 1
             }
             {
                 type: DrawLiquidTile
                 drawLiquid: cryofluid
-                padding: 0.8
+                padding: 1
             }
             {
                 type: DrawDefault
