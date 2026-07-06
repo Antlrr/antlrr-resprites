@@ -1,0 +1,44 @@
+squareSprite: false
+drawer: [
+    {
+        type: DrawMulti 
+        drawers: 
+        [
+            {
+                type: DrawRegion
+                suffix: "-bottom"
+            }
+            {
+                type: DrawParticles
+                color: 95abd9
+                particles: 16
+                reverse: true
+            }
+            {
+                type: DrawParticles
+                color: 2a2a2a
+                particles: 24
+                alpha: 0.7
+            }
+            {
+                type: DrawPistons
+                sides: 2
+                sinScl: 2.5
+                sinMag: 4
+                sinOffset: 57
+                y: 3
+            }
+            {
+                type: DrawPistons
+                sides: 2
+                sinScl: 2.5
+                sinMag: 3
+                sinOffset: 54
+                y: -3
+            }
+            {
+                type: DrawDefault
+            }
+        ]
+    }
+]
