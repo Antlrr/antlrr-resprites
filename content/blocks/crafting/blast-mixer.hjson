@@ -1,0 +1,22 @@
+squareSprite: false
+drawer: [
+    {
+        type: DrawMulti 
+        drawers: 
+        [
+            {
+                type: DrawDefault
+            }
+            {
+                type: DrawRegion
+                suffix: -rotater
+                spinSprite: true
+                rotateSpeed: 2
+            }
+            {
+                type: DrawRegion
+                suffix: -top
+            }
+        ]
+    }
+]
