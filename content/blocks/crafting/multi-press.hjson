@@ -1,4 +1,3 @@
-squareSprite: false
 drawer: [
     {
         type: DrawMulti 
@@ -20,20 +19,40 @@ drawer: [
                 particles: 24
                 alpha: 0.7
             }
+            //---------------------zuhhh remove
+            {
+                type: DrawPistons
+                sides: 2
+                sinScl: 2.75
+                sinMag: 3.5
+                sinOffset: 96
+                angleOffset: 90
+                x: 3
+            }
+            {
+                type: DrawPistons
+                sides: 2
+                sinScl: 2.75
+                sinMag: 3.5
+                sinOffset: 93
+                angleOffset: 90
+                x: -3
+            }
+            //--------------------------
             {
                 type: DrawPistons
                 sides: 2
                 sinScl: 2.5
-                sinMag: 4
-                sinOffset: 57
+                sinMag: 3.5
+                sinOffset: 53
                 y: 3
             }
             {
                 type: DrawPistons
                 sides: 2
                 sinScl: 2.5
-                sinMag: 3
-                sinOffset: 54
+                sinMag: 3.5
+                sinOffset: 56
                 y: -3
             }
             {
