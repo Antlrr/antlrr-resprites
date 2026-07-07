@@ -6,6 +6,6 @@ subtitle: ""
 description: '''
 a texture pack that attempts to mimic the erekir art style on serpulo blocks
 '''
-
+hidden: true
 version: 0.1
 minGameVersion: 154
