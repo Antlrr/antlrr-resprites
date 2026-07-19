@@ -1,10 +1,10 @@
-displayName: "Serekir - Texture Pack"
-name: "serekir"
+displayName: "Antlrr Resprites"
+name: "antresprite"
 
 author: "Antlrr"
 subtitle: ""
 description: '''
-a texture pack that attempts to mimic the erekir art style on serpulo blocks
+a texture pack that's made by me (antlrr)
 '''
 hidden: true
 version: 0.1
